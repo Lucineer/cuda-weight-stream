@@ -1,5 +1,8 @@
 [package]
 name = "cuda-weight-stream"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Weight streaming — DDR4 to BRAM tiled weight loading for inference chips"
+description = "DDR4 weight streaming — uses cuda-equipment"
+
+[dependencies]
+# cuda-equipment = { path = "../cuda-equipment" }
